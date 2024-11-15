@@ -94,7 +94,6 @@ public class ArbitroServlet extends HttpServlet {
                 break;
 
             case "borrar":
-                // d. Borrar árbitro
                 String arbitroId = request.getParameter("id");
                 if (arbitroId != null && !arbitroId.isEmpty()) {
                     int id = Integer.parseInt(arbitroId);
